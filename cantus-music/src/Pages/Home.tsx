@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as MainIllustration } from "../Assets/Images/undraw_music_re_a2jk.svg";
+import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
@@ -12,10 +13,11 @@ const Home: React.FC = () => {
           <h1>Music is Everything</h1>
         </div>
         <div className="info">
-          <h3>Listen to your favorite songs with Cantus Music</h3>
+          <h4>Listen to your favorite songs with Cantus Music</h4>
         </div>
         <div className="get-started">
-          <h3>Try Cantus free</h3>
+          <p>Try Cantus free</p>
+          <Link to="/login">Login Page</Link>
         </div>
       </main>
     </div>
