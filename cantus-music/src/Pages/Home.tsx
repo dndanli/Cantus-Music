@@ -13,11 +13,15 @@ const Home: React.FC = () => {
           <h1>Music is Everything</h1>
         </div>
         <div className="info">
-          <h4>Listen to your favorite songs with Cantus Music</h4>
+          <p>We're more than an audio streaming platform.</p>
+          <p>Listen to your favorite songs with Cantus Music</p>
         </div>
+        <br />
+        <br />
         <div className="get-started">
-          <p>Try Cantus free</p>
-          <Link to="/login">Login Page</Link>
+          <Link to="/login">
+            <p>Try Cantus free</p>
+          </Link>
         </div>
       </main>
     </div>

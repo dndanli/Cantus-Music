@@ -21,14 +21,22 @@ const GlobalStyle = createGlobalStyle`
 
   .info{
     font-family: Montserrat, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1.2em;
     color: rgba(0,0,0,0.6);
   }
 
   .get-started{
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    color:#111111;
+    background-color:#f9b026;
+    padding: .1em 1em .1em 1em;
+    border-radius: .5em;
+    cursor: pointer;
+  }
+  .get-started a{
+    text-decoration: none;
+    color:rgb(255, 254, 252);
   }
 `;
 
