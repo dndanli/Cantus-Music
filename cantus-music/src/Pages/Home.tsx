@@ -19,7 +19,7 @@ const Home: React.FC = () => {
         <br />
         <br />
         <div className="get-started">
-          <Link to="/login">
+          <Link to="/signup">
             <p>Try Cantus free</p>
           </Link>
         </div>
