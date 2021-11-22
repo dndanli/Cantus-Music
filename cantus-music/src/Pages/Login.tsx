@@ -8,11 +8,7 @@ type FormValues = {
 };
 
 const Login: React.FC = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<FormValues>();
+  const { register, handleSubmit } = useForm<FormValues>();
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     console.log(data);
@@ -42,12 +38,15 @@ const Login: React.FC = () => {
           placeholder="password"
           {...(register("password"), { required: true })}
         />
-
-        <Link to="#" onClick={passwordForgotten} style={{ color: "#111111" }}>
-          forgot your password?
+        <Link to="#" onClick={passwordForgotten}>
+          <p className="question">Forgot your password?</p>
         </Link>
-
         <input type="submit" className="submit-btn" value="Log in" />
+
+        <p className="question">Don't have an account?</p>
+        <div className="sign-btn">
+          <Link to="/signup">Sign up for Cantum</Link>
+        </div>
       </form>
     </div>
   );

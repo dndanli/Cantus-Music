@@ -64,7 +64,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: Montserrat, sans-serif;
     font-size: 1rem;
   }
-  .submit-btn{
+  .submit-btn, .sign-btn{
     border: none;
     appearance: none;
     background: #f9b026;
@@ -77,6 +77,18 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
+  }
+
+  .sign-btn{
+      display: flex;
+      justify-content: center;
+      background-color: #999595;
+      border: solid 2px #666565;
+  }
+
+  .sign-btn a {
+    color: rgb( 255, 254, 252);
+    text-decoration: none;
   }
   
   input:focus::placeholder{
@@ -92,6 +104,12 @@ const GlobalStyle = createGlobalStyle`
     font-family: Montserrat, sans-serif;
     width: 55%;
   }
+
+  .question{
+    color: #111111;
+    font-family: Montserrat, sans-serif;
+  }
+
 `;
 
 ReactDOM.render(
