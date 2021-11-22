@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 type FormValues = {
   email: string;
@@ -58,6 +59,9 @@ const Registration: React.FC = () => {
           {errors.userName && <i>Username minimum length is 5 max is 12</i>}
 
           <input type="submit" className="submit-btn" />
+          <div className="reg-questions">
+            <p>Already have an account? <Link to="/login">Log in</Link></p>
+          </div>
         </form>
     </div>
   );

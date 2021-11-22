@@ -33,6 +33,7 @@ const GlobalStyle = createGlobalStyle`
     padding: .1em 1em .1em 1em;
     border-radius: .5em;
     cursor: pointer;
+    margin-top: 2em;
   }
   .get-started a{
     text-decoration: none;
@@ -42,9 +43,6 @@ const GlobalStyle = createGlobalStyle`
   .registration{
     width: 100%;
     height: 100vh;
-    p{
-      font-family: Montserrat, sans-serif;
-    }
   }
 
   form{
@@ -54,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 5rem;
   }
 
-  input{
+  input[type="text"], input[type="password"]{
     border: none;
     appearance: none;
     background: rgb(231, 229, 226);
@@ -67,9 +65,16 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
   .submit-btn{
-    color:rgb( 255, 254, 252);
-    font-size: 1rem;
+    border: none;
+    appearance: none;
     background: #f9b026;
+    color:rgb( 255, 254, 252); 
+    padding: .5rem;
+    border-radius: .2rem;
+    width: 55%;
+    margin: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
   }
@@ -79,14 +84,14 @@ const GlobalStyle = createGlobalStyle`
   }
 
   input::placeholder{
-    color:#111111;
+    color:#424242;
     transition: color 0.3s ease;
   }
 
-  .reg-questions{
+  .reg-questions, .log{
+    font-family: Montserrat, sans-serif;
     width: 55%;
   }
-
 `;
 
 ReactDOM.render(

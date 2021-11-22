@@ -16,8 +16,6 @@ const Home: React.FC = () => {
           <p>We're more than an audio streaming platform.</p>
           <p>Listen to your favorite songs with Cantus Music</p>
         </div>
-        <br />
-        <br />
         <div className="get-started">
           <Link to="/signup">
             <p>Try Cantus free</p>
