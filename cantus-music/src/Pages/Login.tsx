@@ -45,7 +45,7 @@ const Login: React.FC = () => {
 
         <p className="question">Don't have an account?</p>
         <div className="sign-btn">
-          <Link to="/signup">Sign up for Cantum</Link>
+          <Link to="/signup">Sign up for Cantus</Link>
         </div>
       </form>
     </div>
