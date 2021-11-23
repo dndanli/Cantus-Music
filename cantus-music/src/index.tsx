@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { createGlobalStyle } from "styled-components";
 import App from "./App";
-
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: rgb(255, 254, 252);
@@ -109,7 +108,9 @@ const GlobalStyle = createGlobalStyle`
     color: #111111;
     font-family: Montserrat, sans-serif;
   }
-
+  .discover{
+    font-family: Montserrat, sans-serif;
+  }
 `;
 
 ReactDOM.render(
