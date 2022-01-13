@@ -1,5 +1,7 @@
 import React from "react";
 import { StyledSlider } from "../Components/Layout/Slider/Slider.style";
+import Navbar from "../Components/Layout/Navbar/Navbar";
+
 const Discover: React.FC = () => {
   return (
     <div className="discover">
@@ -7,6 +9,10 @@ const Discover: React.FC = () => {
       <StyledSlider height="230px" width="100%" className="slider" />
       <StyledSlider height="230px" width="100%" className="slider" />
       <StyledSlider height="230px" width="100%" className="slider" />
+
+      <div>
+        <Navbar></Navbar>
+      </div>
     </div>
   );
 };

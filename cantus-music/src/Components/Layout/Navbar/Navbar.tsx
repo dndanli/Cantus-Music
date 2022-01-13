@@ -1,5 +1,17 @@
 import React from "react";
+import { NavItems } from "./NavbarItems";
 
-const Navbar = () => {
-  return <div>This is the Navbar</div>;
+const Navbar: React.FC = () => {
+  return (
+    <ul>
+      {NavItems.map((value, idx: number) => {
+        return (
+          //TODO: fix index key prop
+          <li key={idx}>{value.text}</li>
+        );
+      })}
+    </ul>
+  );
 };
+
+export default Navbar;
