@@ -11,7 +11,7 @@ const Discover: React.FC = () => {
       <StyledSlider height="230px" width="100%" className="slider" />
 
       <div>
-        <StyledNavbar></StyledNavbar>
+        <StyledNavbar className="navbar"></StyledNavbar>
       </div>
     </div>
   );

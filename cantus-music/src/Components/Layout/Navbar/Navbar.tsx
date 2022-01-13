@@ -1,13 +1,23 @@
 import React from "react";
 import { NavItems } from "./NavbarItems";
 
-const Navbar: React.FC = () => {
+type NavbarProps = {
+  className: string;
+};
+
+const Navbar: React.FC<NavbarProps> = ({ className }: NavbarProps) => {
   return (
-    <ul>
-      {NavItems.map((value) => {
-        return <li key={value.id}>{<value.icon />}</li>;
-      })}
-    </ul>
+    <div className={className}>
+      <ul className="nav-ul">
+        {NavItems.map((value) => {
+          return (
+            <li className="nav-link" key={value.id}>
+              {<value.icon />}
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 };
 
