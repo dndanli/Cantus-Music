@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledSlider } from "../Components/Layout/Slider/Slider.style";
-import Navbar from "../Components/Layout/Navbar/Navbar";
+import { StyledNavbar } from "../Components/Layout/Navbar/Navbar.style";
 
 const Discover: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const Discover: React.FC = () => {
       <StyledSlider height="230px" width="100%" className="slider" />
 
       <div>
-        <Navbar></Navbar>
+        <StyledNavbar></StyledNavbar>
       </div>
     </div>
   );
