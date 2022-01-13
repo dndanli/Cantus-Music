@@ -15,5 +15,5 @@ export const StyledSlider = styled(Slider)<SliderProps>`
 
   display: grid;
   grid-auto-flow: column;
-  gap: 1em;
+  gap: 1.5em;
 `;

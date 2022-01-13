@@ -11,8 +11,8 @@ export const StyledBox = styled(Box)<Props>`
   width: ${(props) => props.width};
   border-radius: 4%;
   img {
-    height: 120px;
-    width: 120px;
+    height: 145px;
+    width: 145px;
     border-radius: 4%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   }
