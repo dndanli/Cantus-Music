@@ -3,6 +3,10 @@ import ReactDOM from "react-dom";
 import { createGlobalStyle } from "styled-components";
 import App from "./App";
 const GlobalStyle = createGlobalStyle`
+  *{
+    margin: 0;
+    padding: 0;
+  }
   body {
     background-color: rgb(255, 254, 252);
   }
@@ -109,7 +113,16 @@ const GlobalStyle = createGlobalStyle`
     font-family: Montserrat, sans-serif;
   }
   .discover{
+    padding: 1rem;
     font-family: Montserrat, sans-serif;
+  }
+  
+  .navbar-wrapper{
+    position: fixed;
+    bottom: 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
   }
 `;
 
