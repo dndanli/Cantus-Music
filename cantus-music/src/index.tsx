@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5rem;
   }
   .heading{
     font-family: Montserrat, sans-serif;
@@ -53,6 +54,37 @@ const GlobalStyle = createGlobalStyle`
   .registration{
     width: 100%;
     height: 100vh;
+    margin-top: 5rem;
+
+  }
+
+  .registration input[type=text]{
+    margin-bottom: 2rem;
+  }
+
+  .registration input[type=password]{
+    margin-bottom: 2rem;
+  }
+
+  .registration input[type=submit]{
+    margin-bottom: 1rem;
+
+  }
+
+  .login{
+    margin-top: 5rem;
+  }
+
+  .login input[type=text]{
+    margin-bottom: 2rem;
+  }
+
+  .login input[type=password]{
+    margin-bottom: 2rem;
+  }
+
+  .login input[type=submit]{
+    margin-bottom: 1rem;
   }
 
   form{
@@ -109,9 +141,10 @@ const GlobalStyle = createGlobalStyle`
     color:#424242;
     transition: color 0.3s ease;
   }
-
+  
   .reg-questions, .log{
     font-family: Montserrat, sans-serif;
+    font-size: 1.3rem;
     width: 55%;
   }
 
@@ -123,6 +156,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 1rem;
     font-family: Montserrat, sans-serif;
   }
+
   .discover-heading{
     color: #1d191d;
     margin-bottom: .5rem;
