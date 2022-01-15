@@ -5,7 +5,7 @@ export const StyledNavbar = styled(Navbar)`
   border-radius: 1rem;
   width: 90%;
 
-  background-color: #485461;
+  background-color: #f9b026;
   .nav-ul {
     padding: 1rem 0 0 0;
     display: flex;
@@ -13,7 +13,7 @@ export const StyledNavbar = styled(Navbar)`
   }
 
   .nav-link {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     list-style-type: none;
     color: #ffff;
   }

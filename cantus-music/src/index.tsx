@@ -123,7 +123,11 @@ const GlobalStyle = createGlobalStyle`
     padding: 1rem;
     font-family: Montserrat, sans-serif;
   }
-  
+  .discover-heading{
+    color: #1d191d;
+    margin-bottom: .5rem;
+    
+  }
   .navbar-wrapper{
     position: fixed;
     bottom: 1rem;

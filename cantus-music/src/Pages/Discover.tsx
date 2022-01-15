@@ -6,13 +6,13 @@ const Discover: React.FC = () => {
   return (
     <div>
       <div className="discover">
-        <h2>Popular right now</h2>
+        <h2 className="discover-heading">Popular right now</h2>
         <StyledSlider height="230px" width="100%" className="slider" />
 
-        <h2>Best of Hip Hop</h2>
+        <h2 className="discover-heading">Best of Hip Hop</h2>
         <StyledSlider height="230px" width="100%" className="slider" />
 
-        <h2>Chill Music</h2>
+        <h2 className="discover-heading">Chill Music</h2>
         <StyledSlider height="230px" width="100%" className="slider" />
         <br />
       </div>
