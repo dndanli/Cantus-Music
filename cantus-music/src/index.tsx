@@ -27,16 +27,23 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 1.2em;
     color: rgba(0,0,0,0.6);
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .home-text-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .get-started{
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     background-color:#f9b026;
-    padding: .1em 1em .1em 1em;
+    padding: 1em 1em 1em 1em;
     border-radius: .5em;
     cursor: pointer;
-    margin-top: 2em;
+    margin-top: 2rem;
   }
   .get-started a{
     text-decoration: none;
