@@ -40,7 +40,7 @@ const GlobalStyle = createGlobalStyle`
   .get-started{
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    background-color:#f9b026;
+    background-color:#C293EB;
     padding: 1em 1em 1em 1em;
     border-radius: .5em;
     cursor: pointer;
@@ -109,7 +109,7 @@ const GlobalStyle = createGlobalStyle`
   .submit-btn, .sign-btn{
     border: none;
     appearance: none;
-    background: #f9b026;
+    background: #C293EB;
     color:rgb( 255, 254, 252); 
     padding: .5rem;
     border-radius: .2rem;
