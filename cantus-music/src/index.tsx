@@ -169,6 +169,10 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
   }
+  .header-wrapper{
+    width: 100vw;
+    margin-bottom:2rem;
+  }
 `;
 
 ReactDOM.render(
