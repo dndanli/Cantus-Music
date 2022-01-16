@@ -156,15 +156,16 @@ const GlobalStyle = createGlobalStyle`
     padding: 1rem;
     font-family: Montserrat, sans-serif;
   }
-
   .discover-heading{
     color: #1d191d;
     margin-bottom: .5rem;
     
   }
   .navbar-wrapper{
+    background-color: white;
     position: fixed;
-    bottom: 1rem;
+    bottom: -.2rem;
+    height: 5rem;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -173,7 +174,6 @@ const GlobalStyle = createGlobalStyle`
     width: 100vw;
     margin-bottom:2rem;
   }
-
   .discover-heading-desc{
     color:#A6A6A8;
     margin-bottom: 0.7rem;
