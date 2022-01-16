@@ -20,9 +20,9 @@ export const StyledHeaderContainer = styled(HeaderContainer)`
     background-color: #3a1d5c;
     border-radius: 0.5rem;
     color: rgb(255, 254, 252);
-    padding: 1rem;
+    padding: 0.8rem;
     margin-right: -5rem;
-    font-size: 11px;
+    font-size: 10px;
     font-family: Montserrat, sans-serif;
   }
 `;

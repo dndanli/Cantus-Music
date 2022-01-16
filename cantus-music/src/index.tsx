@@ -173,6 +173,11 @@ const GlobalStyle = createGlobalStyle`
     width: 100vw;
     margin-bottom:2rem;
   }
+
+  .discover-heading-desc{
+    color:#A6A6A8;
+    margin-bottom: 0.7rem;
+  }
 `;
 
 ReactDOM.render(

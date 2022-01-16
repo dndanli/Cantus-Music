@@ -11,12 +11,15 @@ const Discover: React.FC = () => {
       </div>
       <div className="discover">
         <h2 className="discover-heading">Popular right now</h2>
+        <h4 className="discover-heading-desc">top tracks from 2022</h4>
         <StyledSlider height="230px" width="100%" className="slider" />
 
         <h2 className="discover-heading">Best of Hip Hop</h2>
+        <h4 className="discover-heading-desc">top tracks from 2022</h4>
         <StyledSlider height="230px" width="100%" className="slider" />
 
         <h2 className="discover-heading">Chill Music</h2>
+        <h4 className="discover-heading-desc">top tracks from 2022</h4>
         <StyledSlider height="230px" width="100%" className="slider" />
         <br />
       </div>
