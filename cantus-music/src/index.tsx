@@ -180,6 +180,15 @@ const GlobalStyle = createGlobalStyle`
     color:#A6A6A8;
     margin-bottom: 0.7rem;
   }
+  
+  .library{
+    
+  }
+
+  .user-menu{
+    font-family: Montserrat, sans-serif;
+    padding: 1rem;
+  }
 `;
 
 ReactDOM.render(

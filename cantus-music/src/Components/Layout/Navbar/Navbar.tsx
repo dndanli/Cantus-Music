@@ -6,7 +6,7 @@ type NavbarProps = {
   className: string;
 };
 
-let paths: string[] = ["/discover", "/search", "/menu", "/download"];
+const paths: string[] = ["/discover", "/search", "/library", "/download"];
 
 const Navbar: React.FC<NavbarProps> = ({ className }: NavbarProps) => {
   return (
