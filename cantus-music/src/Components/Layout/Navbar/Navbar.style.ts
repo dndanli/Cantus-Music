@@ -15,6 +15,9 @@ export const StyledNavbar = styled(Navbar)`
   .nav-link {
     font-size: 2.5rem;
     list-style-type: none;
+  }
+
+  .nav-link a {
     color: #ffff;
   }
 `;
