@@ -15,11 +15,11 @@ const Discover: React.FC = () => {
         <StyledSlider height="230px" width="100%" className="slider" />
 
         <h2 className="discover-heading">Best of Hip Hop</h2>
-        <h4 className="discover-heading-desc">top tracks from 2022</h4>
+        <h4 className="discover-heading-desc">the best of hip hop</h4>
         <StyledSlider height="230px" width="100%" className="slider" />
 
         <h2 className="discover-heading">Chill Music</h2>
-        <h4 className="discover-heading-desc">top tracks from 2022</h4>
+        <h4 className="discover-heading-desc">playlists to chill to</h4>
         <StyledSlider height="230px" width="100%" className="slider" />
         <br />
       </div>

@@ -24,6 +24,6 @@ export const StyledBox = styled(Box)<Props>`
     font-family: Montserrat, sans-serif;
     margin-top: 0.5rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
 `;
