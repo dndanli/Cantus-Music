@@ -162,7 +162,7 @@ const GlobalStyle = createGlobalStyle`
     
   }
   .navbar-wrapper{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(12px);
     position: fixed;
     padding-top: .5rem;

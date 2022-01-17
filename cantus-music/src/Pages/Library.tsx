@@ -1,6 +1,7 @@
 import React from "react";
 import { StyledHeaderContainer } from "../Components/Layout/HeaderContainer/HeaderContainer.style";
 import { StyledNavbar } from "../Components/Layout/Navbar/Navbar.style";
+import { StyledLinkContainer } from "../Components/Layout/LinkContainer/LinkContainer.style";
 
 const Library: React.FC = () => {
   return (
@@ -10,7 +11,12 @@ const Library: React.FC = () => {
       </div>
       <div className="library">
         <div className="user-menu">
-          <h2>My Library</h2>
+          <h2 style={{ marginBottom: "1rem" }}>My Library</h2>
+          <StyledLinkContainer className="link-container" linkName="Liked" />
+          <StyledLinkContainer
+            className="link-container"
+            linkName="Playlists"
+          />
         </div>
       </div>
       <div className="navbar-wrapper">
