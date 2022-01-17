@@ -1,4 +1,4 @@
-# Prototype Pages
+<!-- # Prototype Pages
 
 # Home Page
 
@@ -11,3 +11,4 @@
 # Sign up Page
 
 ![cantus3](https://user-images.githubusercontent.com/73452073/149424233-cd31b5af-e91f-4552-a1de-c6349866fb9a.png)
+ -->
