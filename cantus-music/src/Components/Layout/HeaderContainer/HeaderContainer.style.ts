@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import HeaderContainer from "./HeaderContainer";
 
-export const StyledHeaderContainer = styled(HeaderContainer)`
+const StyledHeaderContainer = styled(HeaderContainer)`
   background-color: rgb(255, 254, 252);
   display: flex;
   justify-content: space-evenly;
@@ -26,3 +26,5 @@ export const StyledHeaderContainer = styled(HeaderContainer)`
     font-family: Montserrat, sans-serif;
   }
 `;
+
+export default StyledHeaderContainer;
