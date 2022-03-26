@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledSlider } from "../Components/Layout/Slider/Slider.style";
-import { StyledNavbar } from "../Components/Layout/Navbar/Navbar.style";
-import { StyledHeaderContainer } from "../Components/Layout/HeaderContainer/HeaderContainer.style";
+import StyledNavbar from "../Components/Layout/Navbar/Navbar.style";
+import StyledHeaderContainer from "../Components/Layout/HeaderContainer/HeaderContainer.style";
 
 const Discover: React.FC = () => {
   return (
