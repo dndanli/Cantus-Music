@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Navbar from "./Navbar";
 
-export const StyledNavbar = styled(Navbar)`
+const StyledNavbar = styled(Navbar)`
   border-radius: 1rem;
   width: 90%;
   background-color: #3a1d5c;
@@ -21,3 +21,4 @@ export const StyledNavbar = styled(Navbar)`
     color: #ffff;
   }
 `;
+export default StyledNavbar;
