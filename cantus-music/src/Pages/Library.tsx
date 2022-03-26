@@ -1,6 +1,6 @@
 import React from "react";
-import { StyledHeaderContainer } from "../Components/Layout/HeaderContainer/HeaderContainer.style";
-import { StyledNavbar } from "../Components/Layout/Navbar/Navbar.style";
+import StyledHeaderContainer from "../Components/Layout/HeaderContainer/HeaderContainer.style";
+import StyledNavbar from "../Components/Layout/Navbar/Navbar.style";
 import { StyledLinkContainer } from "../Components/Layout/LinkContainer/LinkContainer.style";
 
 const Library: React.FC = () => {
