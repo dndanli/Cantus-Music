@@ -19,7 +19,7 @@ const StyledUserProfile = styled(UserProfile)`
     margin-block: 2rem;
   }
   .public-playlists {
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
   }
   .song-track {
     margin-bottom: 1rem;
