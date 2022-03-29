@@ -2,6 +2,7 @@ import StyledUser from "../Components/Layout/User/User.style";
 import StyledNavbar from "../Components/Layout/Navbar/Navbar.style";
 import StyledCurrentTrack from "../Components/Layout/CurrentTrack/CurrentTrack.style";
 import StyledSongTrack from "../Components/Layout/SongTrack/SongTrack.style";
+import { StyledSlider } from "../Components/Layout/Slider/Slider.style";
 import { useState } from "react";
 
 type UserProfileProps = {
@@ -46,6 +47,9 @@ const UserProfile = ({ className }: UserProfileProps) => {
           />
         </div>
       ) : null}
+      <div className="public-playlists">
+        <StyledSlider className="slider" />
+      </div>
       <div className="navbar-wrapper">
         <StyledNavbar className="navbar" />
       </div>
