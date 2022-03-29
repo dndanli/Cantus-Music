@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as MainIllustration } from "../Assets/Images/undraw_music_re_a2jk.svg";
+import { ReactComponent as MainIllustration } from "../Assets/Images/background.svg";
 import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
