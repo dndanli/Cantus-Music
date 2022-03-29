@@ -8,9 +8,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   body {
-    background-color: rgb(255, 254, 252);
+    background-color: #ffffff;
   }
-
   .hero{
     display:flex;
     flex-direction: column;
@@ -20,14 +19,14 @@ const GlobalStyle = createGlobalStyle`
   .heading{
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    color: #111111;
+    color: rgba(16, 16, 16, 0.7);
   }
 
   .info{
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 1.2em;
-    color: rgba(0,0,0,0.6);
+    color: rgba(16, 16, 16, 0.7);
     padding: 1rem;
     text-align: center;
   }
@@ -40,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
   .get-started{
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    background-color:#C293EB;
+    background-color:rgba(255, 183, 0, 0.9);
     padding: 1em 1em 1em 1em;
     border-radius: .5em;
     cursor: pointer;
@@ -109,7 +108,7 @@ const GlobalStyle = createGlobalStyle`
   .submit-btn, .sign-btn{
     border: none;
     appearance: none;
-    background: #C293EB;
+    background-color:rgba(255, 183, 0, 0.9);
     color:rgb( 255, 254, 252); 
     padding: .5rem;
     border-radius: .2rem;
@@ -124,7 +123,7 @@ const GlobalStyle = createGlobalStyle`
   .sign-btn{
       display: flex;
       justify-content: center;
-      background-color: #999595;
+      background-color:rgba(255, 183, 0, 0.9);
       border: solid 2px #666565;
   }
 
@@ -143,13 +142,14 @@ const GlobalStyle = createGlobalStyle`
   }
   
   .reg-questions, .log{
+    color:rgba( 255, 254, 252, 0.8); 
     font-family: Montserrat, sans-serif;
     font-size: 1.3rem;
     width: 55%;
   }
 
   .question{
-    color: #111111;
+    color:rgba( 255, 254, 252, 0.8); 
     font-family: Montserrat, sans-serif;
   }
   .discover{
@@ -157,7 +157,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: Montserrat, sans-serif;
   }
   .discover-heading{
-    color: #1d191d;
+    color: rgba(16, 16, 16, 0.8);
     margin-bottom: .5rem;
     
   }
@@ -177,14 +177,10 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom:2rem;
   }
   .discover-heading-desc{
-    color:#A6A6A8;
+    color: rgba(16, 16, 16, 0.7);
     margin-bottom: 0.7rem;
   }
   
-  .library{
-    
-  }
-
   .user-menu{
     font-family: Montserrat, sans-serif;
     padding: 1rem;
