@@ -22,8 +22,9 @@ const StyledSongTrack = styled(SongTrack)`
     margin-right: 1rem;
   }
   .track-img {
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 15px;
   }
 `;
 
