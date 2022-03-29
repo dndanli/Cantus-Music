@@ -18,7 +18,7 @@ export const StyledBox = styled(Box)<Props>`
   }
 
   .description {
-    color: #111111;
+    color: rgba(16, 16, 16, 0.8);
     font-size: 0.9rem;
     font-weight: 500;
     font-family: Montserrat, sans-serif;
