@@ -12,9 +12,7 @@ const LinkContainer: React.FC<LinkContainerProps> = ({
   return (
     <div className={className}>
       <h3>{linkName}</h3>
-      <h4>
-        <FaCircle />
-      </h4>
+      <FaCircle className="link-circle-icon" />
     </div>
   );
 };
