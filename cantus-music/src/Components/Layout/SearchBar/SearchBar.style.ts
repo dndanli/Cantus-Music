@@ -2,10 +2,11 @@ import styled from "styled-components";
 import SearchBar from "./SearchBar";
 
 const StyledSearchBar = styled(SearchBar)`
-  background-color: rgb(245, 245, 245);
+  background-color: white;
   min-height: 2rem;
   padding-block: 0.5rem;
   border-radius: 8px;
+  background-color: rgb(209, 217, 217);
 
   .search-icon,
   .close-icon,
@@ -36,6 +37,8 @@ const StyledSearchBar = styled(SearchBar)`
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  input.search-field {
     background-color: inherit;
   }
   input[type="search"]::-webkit-search-decoration,
